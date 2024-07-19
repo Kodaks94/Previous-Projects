@@ -1,0 +1,26 @@
+Figure(500x500)
+Figure(500x500)
+Figure(500x500)
+Figure(500x500)
+Traceback (most recent call last):
+  File "C:/Users/Mahra/Desktop/Projects/lune-project/MemoryManagementBPTT/experiment.py", line 162, in <module>
+    [average_total_reward,trajectories] = expand_full_trajectory(keras_ant_brain, environment.initial_state, environment.food_location)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\def_function.py", line 780, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\def_function.py", line 814, in _call
+    results = self._stateful_fn(*args, **kwds)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 2829, in __call__
+    return graph_function._filtered_call(args, kwargs)  # pylint: disable=protected-access
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 1843, in _filtered_call
+    return self._call_flat(
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 1939, in _call_flat
+    forward_backward.record(flat_outputs)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 1443, in record
+    self._functions.record(
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 1284, in record
+    backward_function, to_record = self._wrap_backward_function(
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 1227, in _wrap_backward_function
+    if backprop_util.IsTrainable(output):
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\backprop_util.py", line 26, in IsTrainable
+    if tensor_util.is_tensor(tensor_or_dtype):
+KeyboardInterrupt

@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "C:/Users/Mahra/Desktop/Projects/Thesis/Chapter 6 Advanced MemoryManagementBPTT/experiment.py", line 186, in <module>
+    [average_total_reward,trajectories] = expand_full_trajectory( environment.initial_state, environment.food_location)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_filew7d52obq.py", line 32, in tf__expand_full_trajectory
+    ag__.for_stmt(ag__.converted_call(ag__.ld(range), (ag__.ld(trajectory_length),), None, fscope), None, loop_body, get_state, set_state, ('total_rewards', 'state'), {'iterate_names': 'time_step'})
+  File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_filew7d52obq.py", line 24, in loop_body
+    action = ag__.converted_call(ag__.ld(keras_ant_brain), (ag__.converted_call(ag__.ld(convert_state), (ag__.ld(state),), None, fscope),), None, fscope)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_file8ibbazm1.py", line 11, in tf__call
+    y = ag__.converted_call(ag__.ld(self).layer1, (ag__.ld(x),), None, fscope)
+ValueError: in user code:
+    File "C:/Users/Mahra/Desktop/Projects/Thesis/Chapter 6 Advanced MemoryManagementBPTT/experiment.py", line 177, in expand_full_trajectory  *
+        action = keras_ant_brain(convert_state(state))
+    File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler  **
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_file8ibbazm1.py", line 11, in tf__call
+        y = ag__.converted_call(ag__.ld(self).layer1, (ag__.ld(x),), None, fscope)
+    ValueError: Exception encountered when calling layer "ant_brain" (type AntBrain).
+    in user code:
+        File "C:\Users\Mahra\Desktop\Projects\Thesis\Chapter 6 Advanced MemoryManagementBPTT\Brain.py", line 26, in call  *
+            y = self.layer1(x)
+        File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\keras\utils\traceback_utils.py", line 67, in error_handler  **
+            raise e.with_traceback(filtered_tb) from None
+        File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\keras\engine\input_spec.py", line 248, in assert_input_compatibility
+            raise ValueError(
+        ValueError: Input 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 21, but received input with shape (100, 2)
+    Call arguments received by layer "ant_brain" (type AntBrain):
+      • input_vector=tf.Tensor(shape=(100, 2), dtype=float32)

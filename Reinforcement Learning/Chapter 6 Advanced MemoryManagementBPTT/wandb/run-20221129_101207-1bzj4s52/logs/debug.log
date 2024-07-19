@@ -1,0 +1,25 @@
+2022-11-29 10:12:07,095 INFO    MainThread:4656 [wandb_setup.py:_flush():69] setting env: {}
+2022-11-29 10:12:07,095 INFO    MainThread:4656 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-11-29 10:12:07,095 INFO    MainThread:4656 [wandb_init.py:_log_setup():342] Logging user logs to C:\Users\Mahra\Desktop\Projects\Thesis\Chapter 6 Advanced MemoryManagementBPTT\wandb\run-20221129_101207-1bzj4s52\logs\debug.log
+2022-11-29 10:12:07,096 INFO    MainThread:4656 [wandb_init.py:_log_setup():343] Logging internal logs to C:\Users\Mahra\Desktop\Projects\Thesis\Chapter 6 Advanced MemoryManagementBPTT\wandb\run-20221129_101207-1bzj4s52\logs\debug-internal.log
+2022-11-29 10:12:07,096 INFO    MainThread:4656 [wandb_init.py:init():375] calling init triggers
+2022-11-29 10:12:07,096 INFO    MainThread:4656 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {'randomised_heights': True, 'memory_modification_type': 'Identity', 'sensor_distance': 0, 'dimenstional_information': 23, 'number_of_sensors': 1, 'num_memory_nodes': 20, 'sensor_is_directable': False, 'action_network_sees_xy_position': False, 'randomised_food_location': True, 'sees_highest_points': False, 'sees_direction_to_highest': False, 'neural_layers': [12, 12], 'num_food': 1, 'batch_size': 100, 'trajectory_length': 30, 'max_iteration': 100000, 'slow_start': False, 'learning_rate': 0.001, 'randomise_start_of_iterations': True, 'shortcuts': False}
+2022-11-29 10:12:07,096 INFO    MainThread:4656 [wandb_init.py:init():424] starting backend
+2022-11-29 10:12:07,096 INFO    MainThread:4656 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2022-11-29 10:12:07,108 INFO    MainThread:4656 [backend.py:ensure_launched():135] starting backend process...
+2022-11-29 10:12:08,067 INFO    MainThread:4656 [backend.py:ensure_launched():139] started backend process with pid: 16584
+2022-11-29 10:12:08,068 INFO    MainThread:4656 [wandb_init.py:init():429] backend started and connected
+2022-11-29 10:12:08,069 INFO    MainThread:4656 [wandb_init.py:init():477] updated telemetry
+2022-11-29 10:12:08,069 INFO    MainThread:4656 [wandb_init.py:init():500] communicating current version
+2022-11-29 10:12:09,007 INFO    MainThread:4656 [wandb_init.py:init():505] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-29 10:12:09,007 INFO    MainThread:4656 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2022-11-29 10:12:09,235 INFO    MainThread:4656 [wandb_init.py:init():540] starting run threads in backend
+2022-11-29 10:12:11,558 INFO    MainThread:4656 [wandb_run.py:_console_start():1584] atexit reg
+2022-11-29 10:12:11,558 INFO    MainThread:4656 [wandb_run.py:_redirect():1458] redirect: SettingsConsole.WRAP
+2022-11-29 10:12:11,558 INFO    MainThread:4656 [wandb_run.py:_redirect():1495] Wrapping output streams.
+2022-11-29 10:12:11,559 INFO    MainThread:4656 [wandb_run.py:_redirect():1519] Redirects installed.
+2022-11-29 10:12:11,559 INFO    MainThread:4656 [wandb_init.py:init():565] run started, returning control to user process
+2022-11-29 10:15:03,621 INFO    MainThread:4656 [wandb_run.py:_atexit_cleanup():1554] got exitcode: 255
+2022-11-29 10:15:03,622 INFO    MainThread:4656 [wandb_run.py:_restore():1526] restore

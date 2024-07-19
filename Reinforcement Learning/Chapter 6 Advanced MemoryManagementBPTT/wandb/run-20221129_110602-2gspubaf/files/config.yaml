@@ -1,0 +1,82 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.0
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1669719963
+    t:
+      1:
+      - 2
+      - 3
+      4: 3.8.10
+      5: 0.12.0
+      8:
+      - 3
+      - 5
+action_network_sees_xy_position:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 100
+dimenstional_information:
+  desc: null
+  value: 23
+learning_rate:
+  desc: null
+  value: 0.001
+max_iteration:
+  desc: null
+  value: 100000
+memory_modification_type:
+  desc: null
+  value: identity
+neural_layers:
+  desc: null
+  value:
+  - 12
+  - 12
+num_food:
+  desc: null
+  value: 1
+num_memory_nodes:
+  desc: null
+  value: 20
+number_of_sensors:
+  desc: null
+  value: 1
+randomise_start_of_iterations:
+  desc: null
+  value: true
+randomised_food_location:
+  desc: null
+  value: true
+randomised_heights:
+  desc: null
+  value: true
+sees_direction_to_highest:
+  desc: null
+  value: false
+sees_highest_points:
+  desc: null
+  value: false
+sensor_distance:
+  desc: null
+  value: 0
+sensor_is_directable:
+  desc: null
+  value: false
+shortcuts:
+  desc: null
+  value: false
+slow_start:
+  desc: null
+  value: false
+trajectory_length:
+  desc: null
+  value: 30

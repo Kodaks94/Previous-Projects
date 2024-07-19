@@ -1,0 +1,19 @@
+
+0
+Traceback (most recent call last):
+  File "C:/Users/Mahra/Desktop/Projects/Thesis/Chapter 6 Advanced MemoryManagementBPTT/experiment.py", line 186, in <module>
+    [average_total_reward,trajectories] = expand_full_trajectory( environment.initial_state, environment.food_location)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_file836fbkw3.py", line 32, in tf__expand_full_trajectory
+    ag__.for_stmt(ag__.converted_call(ag__.ld(range), (ag__.ld(trajectory_length),), None, fscope), None, loop_body, get_state, set_state, ('total_rewards', 'state'), {'iterate_names': 'time_step'})
+  File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_file836fbkw3.py", line 24, in loop_body
+    action = ag__.converted_call(ag__.ld(keras_ant_brain), (ag__.converted_call(ag__.ld(convert_state), (ag__.ld(state),), None, fscope),), None, fscope)
+  File "C:\Users\Mahra\AppData\Local\Temp\__autograph_generated_fileemubqxxn.py", line 11, in tf__convert_state
+    sensor = ag__.converted_call(ag__.ld(tf).reshape, (ag__.ld(state)[:, ag__.ld(state_sensor_pointer)], (ag__.ld(batch_size), ag__.ld(number_of_sensors))), None, fscope)
+ValueError: in user code:
+    File "C:/Users/Mahra/Desktop/Projects/Thesis/Chapter 6 Advanced MemoryManagementBPTT/experiment.py", line 177, in expand_full_trajectory  *
+        action = keras_ant_brain(convert_state(state))
+    File "C:/Users/Mahra/Desktop/Projects/Thesis/Chapter 6 Advanced MemoryManagementBPTT/experiment.py", line 163, in convert_state  *
+        sensor = tf.reshape(state[:,state_sensor_pointer], (batch_size,number_of_sensors))
+    ValueError: Cannot reshape a tensor with 100 elements to shape [100,0] (0 elements) for '{{node Reshape}} = Reshape[T=DT_FLOAT, Tshape=DT_INT32](strided_slice_1, Reshape/shape)' with input shapes: [100], [2] and with input tensors computed as partial shapes: input[1] = [100,0].

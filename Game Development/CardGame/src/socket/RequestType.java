@@ -1,0 +1,9 @@
+package socket;
+
+/**
+ * Created by mpishe on 22/11/2017.
+ */
+public enum RequestType {
+    VOTE ,ADD,BUY,SELL,INVALID,GETCASH, GETSHARE, GETROUND, SETROUND,SETCASH,GETCARDS,GETPRICES,CHECK,FINISHED, GETRESULT, ADDMUL, GETGAME;
+
+}

@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-05-03T10:21:57.086847",
+    "startedAt": "2022-05-03T10:21:54.145955",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/Mahra/Desktop/Projects/lune-project/MemoryManagementBPTT/experiment.py",
+    "codePath": "MemoryManagementBPTT\\experiment.py",
+    "git": {
+        "remote": "https://cseegit.essex.ac.uk/mpishe/luna-project.git",
+        "commit": "caea80c6ed52a9fc69dc649711e69e1ea4b06425"
+    },
+    "email": "mpishe@essex.ac.uk",
+    "root": "C:/Users/Mahra/Desktop/Projects/lune-project",
+    "host": "Koda-PC",
+    "username": "Mahra",
+    "executable": "C:\\Users\\Mahra\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\\python.exe"
+}

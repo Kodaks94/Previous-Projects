@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BCI Experiment\Implementations_Source_Code\Analyser\Java_FrameFSP_Analyser.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "C:/Users/Mahra/Desktop/Projects/lune-project/MemoryManagementBPTT/experiment.py", line 142, in <module>
+    [average_total_reward,trajectories] = expand_full_trajectory(keras_ant_brain, environment.initial_state, environment.food_location)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\def_function.py", line 780, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\def_function.py", line 823, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\def_function.py", line 696, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 2855, in _get_concrete_function_internal_garbage_collected
+    graph_function, _, _ = self._maybe_define_function(args, kwargs)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 3213, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\function.py", line 3065, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\framework\func_graph.py", line 986, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\eager\def_function.py", line 600, in wrapped_fn
+    return weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\framework\func_graph.py", line 973, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+    C:/Users/Mahra/Desktop/Projects/lune-project/MemoryManagementBPTT/experiment.py:133 expand_full_trajectory  *
+        action = keras_ant_brain(state)
+    C:\Users\Mahra\Desktop\Projects\lune-project\MemoryManagementBPTT\Brain.py:29 call  *
+        y2=self.layer1(x)
+    C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\keras\engine\base_layer.py:975 __call__  **
+        input_spec.assert_input_compatibility(self.input_spec, inputs,
+    C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\tensorflow\python\keras\engine\input_spec.py:212 assert_input_compatibility
+        raise ValueError(
+    ValueError: Input 0 of layer dense is incompatible with the layer: expected axis -1 of input shape to have value 23 but received input with shape [100, 163]

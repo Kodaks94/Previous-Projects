@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AssignmentPhysicsBasedGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AssignmentPhysicsBasedGame_jar</output-path>
+    <root id="archive" name="AssignmentPhysicsBasedGame.jar">
+      <element id="module-output" name="AssignmentPhysicsBasedGame" />
+    </root>
+  </artifact>
+</component>

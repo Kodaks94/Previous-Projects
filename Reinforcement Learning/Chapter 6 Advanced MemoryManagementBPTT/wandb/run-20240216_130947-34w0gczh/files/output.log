@@ -1,0 +1,27 @@
+Figure(500x500)
+Figure(500x500)
+wandb: ERROR plotly is required to log interactive plots, install with: pip install plotly or convert the plot to an image with `wandb.Image(plt)`
+Traceback (most recent call last):
+  File ".\experiment.py", line 273, in <module>
+    wandb.log({"plot":plt})
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\wandb_run.py", line 1141, in log
+    self.history._row_add(data)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\wandb_history.py", line 44, in _row_add
+    self._flush()
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\wandb_history.py", line 59, in _flush
+    self._callback(row=self._data, step=self._step)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\wandb_run.py", line 885, in _history_callback
+    self._backend.interface.publish_history(
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\interface\interface.py", line 214, in publish_history
+    data = data_types.history_dict_to_json(run, data, step=step)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\data_types.py", line 2318, in history_dict_to_json
+    payload[key] = val_to_json(run, key, val, namespace=step)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\data_types.py", line 2343, in val_to_json
+    val = Plotly.make_plot_media(val)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\data_types.py", line 2268, in make_plot_media
+    val = util.matplotlib_to_plotly(val)
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\util.py", line 413, in matplotlib_to_plotly
+    tools = get_module(
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\util.py", line 182, in get_module
+    raise wandb.Error(required)
+wandb.errors.Error: plotly is required to log interactive plots, install with: pip install plotly or convert the plot to an image with `wandb.Image(plt)`

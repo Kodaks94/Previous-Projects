@@ -1,0 +1,74 @@
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Received train stimulation. Data dim is [700x6]
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> For information, we have 140 feature vector(s) for input 1
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> For information, we have 560 feature vector(s) for input 2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> k-fold test could take quite a long time, be patient
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Finished with partition 1 / 5 (performance : 92.1429%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Finished with partition 2 / 5 (performance : 80%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Finished with partition 3 / 5 (performance : 81.4286%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Finished with partition 4 / 5 (performance : 82.8571%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Finished with partition 5 / 5 (performance : 85%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Cross-validation test accuracy is 84.2857% (sigma = 4.26184%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3>   Target  1:   30.7  69.3 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3>   Target  2:    2.3  97.7 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3> Training set accuracy is 84.1429% (optimistic)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3>   Target  1:   30.7  69.3 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a39) aka Trainer for frequency 3>   Target  2:    2.5  97.5 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Received train stimulation. Data dim is [700x6]
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> For information, we have 140 feature vector(s) for input 1
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> For information, we have 560 feature vector(s) for input 2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> k-fold test could take quite a long time, be patient
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Finished with partition 1 / 5 (performance : 77.8571%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Finished with partition 2 / 5 (performance : 72.1429%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Finished with partition 3 / 5 (performance : 77.8571%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Finished with partition 4 / 5 (performance : 88.5714%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Finished with partition 5 / 5 (performance : 80%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Cross-validation test accuracy is 79.2857% (sigma = 5.3261%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4>   Target  1:    5.0  95.0 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4>   Target  2:    2.1  97.9 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4> Training set accuracy is 80.5714% (optimistic)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4>   Target  1:    7.1  92.9 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3b) aka Trainer for frequency 4>   Target  2:    1.1  98.9 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Received train stimulation. Data dim is [700x6]
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> For information, we have 140 feature vector(s) for input 1
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> For information, we have 560 feature vector(s) for input 2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> k-fold test could take quite a long time, be patient
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Finished with partition 1 / 5 (performance : 80%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Finished with partition 2 / 5 (performance : 85.7143%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Finished with partition 3 / 5 (performance : 68.5714%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Finished with partition 4 / 5 (performance : 82.1429%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Finished with partition 5 / 5 (performance : 78.5714%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Cross-validation test accuracy is 79% (sigma = 5.74279%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1>   Target  1:    5.0  95.0 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1>   Target  2:    2.5  97.5 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1> Training set accuracy is 81.2857% (optimistic)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1>   Target  1:   10.0  90.0 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a38) aka Trainer for frequency 1>   Target  2:    0.9  99.1 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Received train stimulation. Data dim is [700x6]
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> For information, we have 140 feature vector(s) for input 1
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> For information, we have 560 feature vector(s) for input 2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> k-fold test could take quite a long time, be patient
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Finished with partition 1 / 5 (performance : 81.4286%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Finished with partition 2 / 5 (performance : 80%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Finished with partition 3 / 5 (performance : 90%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Finished with partition 4 / 5 (performance : 75.7143%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Finished with partition 5 / 5 (performance : 81.4286%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Cross-validation test accuracy is 81.7143% (sigma = 4.64231%)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2>   Target  1:   15.7  84.3 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2>   Target  2:    1.8  98.2 %, 560 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2> Training set accuracy is 82.4286% (optimistic)
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2>   Cls vs cls      1     2
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2>   Target  1:   14.3  85.7 %, 140 examples
+[ INF ] At time 614.594 sec <Box algorithm::(0x7df0500c, 0x5b8a0a3a) aka Trainer for frequency 2>   Target  2:    0.5  99.5 %, 560 examples
+[ INF ] At time 614.609 sec <Box algorithm::(0x00003bf3, 0x000010f1) aka Target Separator> Lua script terminated
+[ INF ] At time 614.609 sec <Box algorithm::(0x00003b3a, 0x00002285) aka Target Separator> Lua script terminated
+[ INF ] At time 614.609 sec <Box algorithm::(0x00004488, 0x00004def) aka Target Separator> Lua script terminated
+[ INF ] At time 614.609 sec <Box algorithm::(0x00004488, 0x00004df0) aka Target Separator> Lua script terminated
+[ INF ] At time 614.609 sec <Box algorithm::(0x00001f4c, 0x00001efa) aka FlipSwitch> Lua script terminated
+[ WARNING ] <Player::can not reach realtime> 151 second(s) late...

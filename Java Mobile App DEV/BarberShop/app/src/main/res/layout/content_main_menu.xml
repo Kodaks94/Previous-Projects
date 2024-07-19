@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    tools:context=".main_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/logo2"
+            />
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/menugrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+           >
+
+            <ImageButton
+                android:id="@+id/book"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:padding="20dp"
+                android:background="@color/bgcolor"
+                android:src="@drawable/book" />
+
+            <ImageButton
+                android:id="@+id/barbershop"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:padding="20dp"
+                android:background="@color/bgcolor"
+                android:src="@drawable/barbershop" />
+
+            <ImageButton
+                android:id="@+id/bookings"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@color/bgcolor"
+                android:src="@drawable/booking" />
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_row="1"
+                android:padding="20dp"
+                android:layout_column="1"
+                android:background="@color/bgcolor"
+                android:src="@drawable/settings" />
+
+        </GridLayout>
+
+    </LinearLayout>>
+
+</ScrollView>

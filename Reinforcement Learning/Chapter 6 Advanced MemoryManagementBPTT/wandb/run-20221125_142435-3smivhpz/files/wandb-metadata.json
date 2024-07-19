@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-11-25T14:24:39.580654",
+    "startedAt": "2022-11-25T14:24:35.110376",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [
+        "--memory_mod=Full_LSTM",
+        "--trial=2"
+    ],
+    "state": "running",
+    "program": ".\\experiment.py",
+    "codePath": "experiment.py",
+    "host": "Koda-PC",
+    "username": "Mahra",
+    "executable": "C:\\Users\\Mahra\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\\python.exe"
+}

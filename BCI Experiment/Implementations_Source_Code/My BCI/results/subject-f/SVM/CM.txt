@@ -1,0 +1,6 @@
+[ INF ] At time 191.641 sec <Box algorithm::(0x102c3aa1, 0x2d1a2420) aka Performance> mean time for first classification: 1.03683035714
+Confusion matrix -------------------------------
+[[0.         0.         1.         0.        ]
+ [0.         0.         1.         0.        ]
+ [0.         0.23529412 0.76470588 0.        ]
+ [0.         0.         1.         0.        ]]

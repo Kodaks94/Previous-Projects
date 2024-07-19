@@ -1,0 +1,25 @@
+2022-11-29 11:43:35,794 INFO    MainThread:8484 [wandb_setup.py:_flush():69] setting env: {}
+2022-11-29 11:43:35,794 INFO    MainThread:8484 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-11-29 11:43:35,795 INFO    MainThread:8484 [wandb_init.py:_log_setup():342] Logging user logs to C:\Users\Mahra\Desktop\Projects\Thesis\Chapter 6 Advanced MemoryManagementBPTT\wandb\run-20221129_114335-17owkh0e\logs\debug.log
+2022-11-29 11:43:35,795 INFO    MainThread:8484 [wandb_init.py:_log_setup():343] Logging internal logs to C:\Users\Mahra\Desktop\Projects\Thesis\Chapter 6 Advanced MemoryManagementBPTT\wandb\run-20221129_114335-17owkh0e\logs\debug-internal.log
+2022-11-29 11:43:35,795 INFO    MainThread:8484 [wandb_init.py:init():375] calling init triggers
+2022-11-29 11:43:35,795 INFO    MainThread:8484 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {'randomised_heights': True, 'memory_modification_type': 'Identity', 'sensor_distance': 0, 'dimenstional_information': 23, 'number_of_sensors': 1, 'num_memory_nodes': 20, 'sensor_is_directable': False, 'action_network_sees_xy_position': False, 'randomised_food_location': True, 'sees_highest_points': False, 'sees_direction_to_highest': False, 'neural_layers': [12, 12], 'num_food': 1, 'batch_size': 100, 'trajectory_length': 30, 'max_iteration': 100000, 'slow_start': False, 'learning_rate': 0.001, 'randomise_start_of_iterations': True, 'shortcuts': False}
+2022-11-29 11:43:35,795 INFO    MainThread:8484 [wandb_init.py:init():424] starting backend
+2022-11-29 11:43:35,795 INFO    MainThread:8484 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2022-11-29 11:43:35,803 INFO    MainThread:8484 [backend.py:ensure_launched():135] starting backend process...
+2022-11-29 11:43:36,749 WARNING MainThread:8484 [wandb_init.py:init():795] interrupted
+Traceback (most recent call last):
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\wandb_init.py", line 775, in init
+    run = wi.init()
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\wandb_init.py", line 427, in init
+    backend.ensure_launched()
+  File "C:\Users\Mahra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\wandb\sdk\backend\backend.py", line 137, in ensure_launched
+    self.wandb_process.start()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0\lib\multiprocessing\popen_spawn_win32.py", line 95, in __init__
+    set_spawning_popen(None)
+KeyboardInterrupt

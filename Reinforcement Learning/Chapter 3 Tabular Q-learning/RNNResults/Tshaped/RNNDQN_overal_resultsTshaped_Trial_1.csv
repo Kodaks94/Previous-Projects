@@ -1,0 +1,5 @@
+algoname,mapname,total_reward
+RNNDQN,Tshaped,-15
+RNNDQN,Tshaped,-26
+use_separate_target_network,frequency_update_q_network,frequency_update_target_network,replay_chunk_size_to_use,shuffle_replay_buffer,replay_buffer_size,optimizer,num_hidden_nodes,discount_factor,epsilon_greedy,iterations,reward_magnitued_per_timestep,time_sequence_length,max_trajectory_length
+True,1,1,5,False,1000,tensorflow.python.keras.optimizer_v2.gradient_descent,32,1,0,2000,0.1,15,50
