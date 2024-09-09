@@ -3,27 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\Mahra\AppData\Local\Temp\bank.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\Mahra\AppData\Local\Temp\car.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="C:\Users\Mahra\AppData\Local\Temp\iris.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\BCI Experiment\Implementations_Source_Code\Analyser\Java_FrameFSP_Analyser.csv">
           <value>
             <Attribute>
