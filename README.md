@@ -2,6 +2,10 @@
 
 This repository showcases the research projects I conducted during my tenure at the University of Essex from 2020 to 2023. The outcomes of these projects have been published and are detailed in the "Contributed Papers" section.
 
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
 ## Research Projects
 
 ### Memory-Based Backpropagation Through Time (MBPTT) Algorithm
